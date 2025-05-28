@@ -9,7 +9,7 @@ import json
 organism = {
     "generation": 1,
     "name": "Autophyx",
-    "description": "A self-aware structure that rewrites its physical rules in the absence of energy.",
+    "description": "A simple organism made of code, bit and electric impulse",
     "sdxl_prompt": "",
     "narrative": ""
 }
@@ -28,7 +28,7 @@ log.append({
 })
 
 # Begin evolution
-for generation in range(2, 7):  # Gen2 to Gen6
+for generation in range(1, 10):  # Gen2 to Gen6
     print(f"\n--- Generation {generation} ---")
 
     parent = organism
