@@ -9,7 +9,7 @@ from openai import OpenAI
 sys.path.append(os.path.join(os.path.dirname(__file__), "server"))
 
 # Import your API keys
-from key import OPENAI_API_KEY, CLOUDFLARE_API_KEY, CLOUDFLARE_ACCOUNT_ID
+from keys import OPENAI_API_KEY, CLOUDFLARE_API_KEY, CLOUDFLARE_ACCOUNT_ID
 
 # -------------------------
 # SET THIS TO SWITCH MODES
